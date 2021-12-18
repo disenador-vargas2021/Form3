@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	
+</head>
+<body>
+
+<h1>Formulario de alta</h1>
+
+<table align="left" height="40">
+<!-- cabecera -->
+   <tr>
+	<th><h3>Nombre y apellidos*</h3></th> <!-- celda de cabecera de la columna 1 -->
+	<th> </th> <!-- celda de cabecera de la columna 1 -->
+  	<th colspan="2"  align="left"><h3>Dirección*</h3></th> <!-- celda de cabecera de la columna 1 -->
+
+  </tr>
+
+<!-- Primera Fila -->
+  <tr>
+	<td>
+	   <form>
+	<p>
+	<input type="tex"name="nombre" autofocus=""><br>Nombre
+	</p>
+	    </form>
+	 </td><!-- Primera celda de la primera fila -->
+
+	<td width="120"> </td> <!-- Segunda celda de la Primera fila -->
+	 
+	<td colspan="2">
+	   <form>
+	<p>
+	<input type="street-address" name="dirección"><br>Calle,número,piso,puerta
+	</p>
+	    </form>
+	</td><!-- Tercera celda de la pimera fila -->
+  </tr>
+
+<!-- Segunda Fila -->
+  <tr>
+	<td>
+	<form>
+	<p>
+	<input type="family-name" name="apellido"><br>Primer apellido
+	</p>
+	</form>
+	</td> <!-- Primera celda de la segunda fila -->
+	
+	<td><p> </p></td> <!-- Segunda celda de la segunda fila -->
+	
+	<td>
+	<form>
+	<p>
+	<input type="postal-code" name="Codigo postal"><br>Código postal
+	</p>
+	</form>
+	</td> <!-- Tercera celda de la Segunda fila -->
+
+	<td>
+	<form>
+	<p>
+	<input type="text" name="Municipio"><br>Municipio
+	</p>
+	</form>
+	</td> <!-- Cuarta celda de la Segunda fila -->
+  </tr>
+
+<!-- Tercera Fila -->
+  <tr>
+	<td>
+	<form>
+	<p>
+	<input type="family-name" name="apellido"><br>Segundo apellido
+	</p>
+	</form>
+	</td> <!-- Primera celda de la Tercera fila -->
+
+	<td> </td> <!-- Segunda celda de la Tercera fila -->
+
+	<td>
+	<form>
+	 <select id="provincia" name="provincia">
+	<option valvue=""></option> 
+	<option valvue="Provincia1">Barranca</option>
+	<option valvue="Provincia2">Huaura</option><br>
+	</select><br> 
+	Provincia
+	<br><br>
+	</form>
+	</td> <!-- Tercera celda de la Tercera fila -->
+
+	<td>
+	<form>
+	 <select id="País" name="País">
+	<option valvue=""></option> 
+	<option valvue="País1">Perú</option>
+	<option valvue="País2">Chile</option><br>
+	</select><br> 
+	País
+	<br><br>
+	</form>
+	</td> <!-- Cuarta celda de la Tercera fila -->
+
+  </tr>
+
+<!-- cuarta Fila -->
+  <tr>
+	<td><p> </p></td> <!-- Primera celda de la Cuarta fila -->
+	<td><p> </p></td> <!-- Segunda celda de la Cuarta fila -->
+	<td><p> </p></td> <!-- Tercera celda de la Cuarta fila -->
+	<td><p> </p></td> <!-- Cuarta celda de la Cuarta fila -->
+  </tr>
+
+<!-- Quinta fila -->
+   <tr>
+	<th><h3>Email*</h3></th> <!-- Primera celda de la Quinta fila -->
+	<th> </th> <!-- Segunda celda de la Quinta fila -->
+  	<th colspan="2"><h3>Teléfono*</h3></th> <!-- Tercera celda de la Quinta fila -->
+  </tr>
+
+<!-- Sexta Fila -->
+  <tr>
+	<td>
+	<form>
+	<p>
+	<input type="email" name="correo">
+	</p>
+	</form>
+	</td> <!-- Primera celda de la Sexta fila -->
+	
+	<td> </td> <!-- Segunda celda de la Sexta fila -->
+
+	<td>
+	<form>
+	<p>
+	<input type="tel" name="fijo"><br>Fijo
+	</p>
+	</form>
+	</td> <!-- Tercera celda de la Sexta fila -->
+
+	<td>
+	<form>
+	<p>
+	<input type="tel" name="movil"><br>Móvil
+	</p>
+	</form>
+	</td> <!-- Cuarta celda de la Sexta fila -->
+  </tr>
+
+</table>
+</body>
+</html>
